@@ -22,13 +22,13 @@
         let lat = position.coords.latitude;
         let long = position.coords.longitude;
         var options = {
-			center: new kakao.maps.LatLng(lat, long),
+			center: new kakao.maps.LatLng(35.2107,129.0232 ),
 			level: 3
 		};
 
 		var map = new kakao.maps.Map(x, options);
         // 마커가 표시될 위치입니다 
-        var markerPosition  = new kakao.maps.LatLng(lat, long); 
+        var markerPosition  = new kakao.maps.LatLng(35.2107, 129.0232); 
 
         // 마커를 생성합니다
         var marker = new kakao.maps.Marker({
